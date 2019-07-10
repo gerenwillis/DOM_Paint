@@ -158,8 +158,10 @@ function changeBackground(color, clear) {
 }
 
 (async function main() {
-    await createCanvasSelector();
-    await fillWithDivs();
-    await createPalette();
+    await (() => {
+        createCanvasSelector();
+        fillWithDivs();
+        createPalette();
+    })();
     addListeners();
 })()
