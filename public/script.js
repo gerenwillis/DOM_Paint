@@ -1,11 +1,6 @@
-/* Ideas
-    1) Converting webcam images to either dom elements or p5 drawings, based on that artist DANIEL ROZIN
-    2) A website whose background colors change dependent on the velocity and location of the cursor.
-    3) A website that lists satellites, plots their location and tells when and where they will be visible to you.
-    4) Using google earth engine to look at the expansion of the Texas Coast
+/*
+    An attempt at a rudimentary paint program utilizing vanilla JS and DOM elements directly without Canvas.
 */
-
-//Dynamically color changing background, vanilla js
 
 const blockSize = 10;
 
